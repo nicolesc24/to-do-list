@@ -19,16 +19,16 @@ Esse projeto é simples, mas demonstra uso de **structs, arrays, manipulação d
 
 ## 🔧 Tecnologias usadas
 
-Linguagem C
-Compilador GCC
-Uso de structs, arrays, loops e manipulação de arquivos
+- Linguagem C
+- Compilador GCC
+- Uso de structs, arrays, loops e manipulação de arquivos
 
 ## 🚀 Melhorias futuras
 
-Ordenar tarefas por prioridade
-Filtro para mostrar apenas concluídas ou pendentes
-Suporte multilíngue (PT/EN)
-Exportar lista de tarefas em formato .txt ou .csv
+- Ordenar tarefas por prioridade
+- Filtro para mostrar apenas concluídas ou pendentes
+- Suporte multilíngue (PT/EN)
+- Exportar lista de tarefas em formato .txt ou .csv
 
 ## 👨‍💻 Autor
 
