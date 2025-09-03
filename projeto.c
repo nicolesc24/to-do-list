@@ -6,8 +6,8 @@
 
 typedef struct {
     char titulo[100];
-    int concluida;   // 0 = não, 1 = sim
-    int prioridade;  // 1 = alta, 2 = média, 3 = baixa
+    int concluida;   
+    int prioridade;  
 } Tarefa;
 
 void mostrarBanner() {
@@ -28,7 +28,7 @@ void mostrarProgresso(Tarefa tarefas[], int qtd) {
     }
 
     float perc = (concluidas * 100.0f) / qtd;
-    int barras = perc / 10; // cada # = 10%
+    int barras = perc / 10; 
 
     printf("\nProgresso: [");
     for (int i = 0; i < 10; i++) {
@@ -45,9 +45,9 @@ void adicionarTarefa(Tarefa tarefas[], int *qtd) {
     }
 
     printf("Digite o titulo da tarefa: ");
-    getchar(); // limpa buffer
+    getchar(); 
     fgets(tarefas[*qtd].titulo, 100, stdin);
-    tarefas[*qtd].titulo[strcspn(tarefas[*qtd].titulo, "\n")] = 0; // remove \n
+    tarefas[*qtd].titulo[strcspn(tarefas[*qtd].titulo, "\n")] = 0; 
 
     printf("Prioridade (1=Alta, 2=Media, 3=Baixa): ");
     scanf("%d", &tarefas[*qtd].prioridade);
